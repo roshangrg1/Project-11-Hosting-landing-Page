@@ -1,0 +1,392 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: "Oswald";
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 18vh;
+    align-items: center;
+    font-family: 'Roboto';
+    font-weight: 600;
+    
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+.logo img{
+    width: 100px;
+}
+.nav-btn{
+    background-color: transparent;
+    border: 1px solid #ff4f5a;
+    color: #ff4f5a;
+    border-radius: 8px;
+    padding: 8px 15px;
+    margin-top: -5px;
+}
+.bar{
+    display: none;
+}
+.hosting{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.left-hosting{
+    width: 40%
+
+}
+.left-hosting h1{
+    font-size: 40px;
+    max-width: 25rem;
+}
+.right-hosting{
+ width:40%;
+}
+.right-hosting img{
+   width: 100%;
+}
+.hosting-btn{
+    background-color: #ff4f5a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Roboto";
+}
+
+
+
+.quality{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.right-quality{
+    width: 40%;
+
+}
+.right-quality h1{
+    font-size: 40px;
+}
+.left-quality{
+ width:40%;  
+}
+.left-quality img{
+   width:100%;
+}
+.quality-btn{
+    background-color: #ff4f5a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.support{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.left-support{
+    width: 40%;
+
+}
+.left-support h1{
+    font-size: 40px;
+}
+.right-support{
+ width:40%;  
+}
+.right-support img{
+   width: 80%;
+}
+.support-btn{
+    background-color: #ff4f5a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+    /* service-provider */
+
+.service-provider{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+}
+.service-provider p{
+    width: 40%;
+}
+.service-provider h1{
+    width: 40%;
+}
+
+
+        /* upper3card & lower 3 card */
+
+    .upper3-card{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+    }
+    .lower3-card{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+       
+
+    }
+    .card{
+        width: 30%;
+        background-color: #fff;
+        box-shadow: 2px 2px 10px #1a2e35;
+    }
+    .card p{
+        color: rgb(153, 149, 149);
+    }
+    
+
+
+    /* card section */
+    .pricing-wrapper{
+        background-color: #ff4f5a;
+    }
+    .pricing-wrapper h2{
+        color: #fff;
+        font-size: 40px;
+        text-align: center;
+    }
+    .pricing{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        
+        
+
+    }
+    .pricing-card-1{
+        background-color: #fff;
+        width:31%;
+        border-radius: 8px;
+        margin-bottom: 60px;
+    }
+    .pricing-card-2{
+       background-color: #fff;
+       width:31%;
+       border-radius: 8px;
+       margin-bottom: 60px;
+       
+    }
+    .pricing-card-3{
+        background-color: #fff;
+        width:30%;
+        border-radius: 8px;
+        margin-bottom: 60px;
+    }
+
+    .pricing-card-body .fa-check{
+        border-radius: 50px;
+        border: 2px solid #54d854;
+        color:#54d854;
+    }
+    .pricing-card-footer{
+        text-align: center;
+    }
+    .pricing-card-footer .btn-pricing{
+        border: 1px solid #ff4f5a;
+        border-radius: 8px;
+        background-color: transparent;
+        padding: 10px 15px;
+        margin-bottom: 10px;
+        color: #ff4f5a;
+    }
+    .btn-pricing:hover{
+        background-color: #ff4f5a;
+        color: #fff;
+    }
+
+
+
+    /* feedback */
+
+
+    .customer-fedback{
+        margin-top: 50px;
+        background-color: #fff1f1;
+    }
+    .customer-fedback h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .customer-fedback .c-fedback-p{
+        text-align: center;
+    }
+
+    .feedback{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        
+    }
+    .feedback-card{
+        
+        background-color: #fff;
+        box-shadow: 10px 5px 5px rgb(100, 97, 97);
+    }
+    .customer-info{
+        display: flex;
+    }
+   
+    .info{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    li{
+        list-style-type: none;
+    }
+
+
+
+    /* register */
+
+    .register{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ff4f5a;
+    }
+    .register-left{
+        color: #fff;
+    }
+    .register-right .r-btn{
+        color:#fff;
+        background-color: transparent;
+        border: 1px solid #fff;
+        padding: 8px 10px;
+        margin-right: 50px;
+        
+
+    }
+    .register-right{
+        width: 40%;
+    }
+
+
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    .foooter-right{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .logo-container{
+        width: 25%;
+    }
+    .logo-container p{
+        color: grey;
+        font-size: 15px;
+
+    }
+    .logo-container img{
+        width: 100px;
+    }
+    .footer-list li{
+        color: grey;
+        font-size: 13px;
+    }
+    .social-media-logo{
+        color: #ff4f5a;
+    }
+    .sml{
+        display: flex;
+        gap: 10px;
+        color: #ff4f5a;
+     
+    }
+   
+
+
+
+ /* mq */
+@media screen and (max-width:900px){
+    .bar{
+        display: contents;
+        color: #ff4f5a;
+        font-size: 30px;
+    }
+    .list{
+        display: none;
+    }
+    .left-hosting h1{
+        font-size: 30px;
+     }
+    .right-quality h1{
+        font-size: 30px;
+    }
+    .service-provider h1{
+        font-size: 30px;
+    }
+    .service-provider p{
+        font-size: 15px;
+    }
+    .footer-list li{
+        color: grey;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .left-hosting h1{
+        font-size: 20px;
+    }
+    .left-hosting p{
+        font-size: 10px;
+    }
+    .right-quality h1{
+        font-size: 20px;
+    }
+    .right-quality p{
+        font-size: 8px;
+    }
+    .left-support h1{
+        font-size: 20px;
+    }
+    .left-support p{
+        font-size: 10px;
+    }
+    .service-provider h1{
+        font-size: 20px;
+    }
+    .service-provider p{
+        font-size:12px;
+    }
+    .footer-list li{
+        color: grey;
+        font-size: 7px;
+    }
+    .logo-container p{
+        color: grey;
+        font-size: 10px;
+
+    }
+}
