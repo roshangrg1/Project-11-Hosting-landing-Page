@@ -1,4 +1,4 @@
-# Project-9 Interior design landing Page [go-live](https://p-11.netlify.app/)
+# Project-11 Web-hosting landing Page [go-live](https://p-11.netlify.app/)
 This is simple website of home page. In this project I have only used core css. It is responsive as well.
 
 
